@@ -23,7 +23,7 @@
               class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
+              data-bs-target="#carousel"
             >
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,6 +44,63 @@
           </div>
         </nav>
       </header>
+      <!-- carrusel -->
+      <div class="row">
+        <div class="col">
+          <div>
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://via.placeholder.com/350x150"
+                    class="d-block w-100"
+                    alt="slide1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://via.placeholder.com/350x150"
+                    class="d-block w-100"
+                    alt="slide2"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://via.placeholder.com/350x150"
+                    class="d-block w-100"
+                    alt="slide3"
+                  />
+                </div>
+              </div>
+              <!-- botones -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Atrás</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <main class="row mt-5">
         <section class="col col-lg-10">
           <h1 class="display-1 mb-5">Tarjetas para rellenar</h1>
